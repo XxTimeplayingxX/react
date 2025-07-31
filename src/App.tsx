@@ -6,6 +6,8 @@ import { Contador } from './01.fundamentos/state'
 import { DefaultComponent, UnionComponent } from './02.PropsComposicion/props'
 import { Card, ComponenteSimple, List } from './02.PropsComposicion/reactNode'
 import { RenderComponentFunction } from './02.PropsComposicion/composicion'
+import { UserList } from './02.Ejercicio/ejercicio'
+import { TitleEffect } from './03.Hooks/useEffect'
 
 function App() {
 
@@ -34,6 +36,13 @@ function App() {
       <List items={[<span>Item1</span>, <span>Item2</span>, <span>Item3</span>]}></List> */}
 
       <RenderComponentFunction title={'Hola'} renderContent={returnData}></RenderComponentFunction>
+        
+        {/* <UserList name={'Pedro'} age={10} status='offline' children={
+          <p>Hola Mundo</p>
+        }></UserList> */}
+    
+    <TitleEffect></TitleEffect>
+    
     </>
   )
 }
