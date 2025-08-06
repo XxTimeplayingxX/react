@@ -8,6 +8,11 @@ import { Card, ComponenteSimple, List } from './02.PropsComposicion/reactNode'
 import { RenderComponentFunction } from './02.PropsComposicion/composicion'
 import { UserList } from './02.Ejercicio/ejercicio'
 import { TitleEffect } from './03.Hooks/useEffect'
+import { CountReducer } from './04.ContextReducer/useReducer/reducer'
+import { FormWithReducer } from './04.ContextReducer/useReducer/formReducer'
+import { ComponentePadre } from './05.Performance/memoComponent'
+import { UseMemoExample } from './05.Performance/useMemo'
+import { UseCallBackExample } from './05.Performance/useCallBack'
 
 function App() {
 
@@ -41,7 +46,17 @@ function App() {
           <p>Hola Mundo</p>
         }></UserList> */}
     
-    <TitleEffect></TitleEffect>
+    {/* <TitleEffect></TitleEffect>
+
+    <CountReducer></CountReducer> */}
+
+    {/* <FormWithReducer></FormWithReducer> */}
+
+    {/* <ComponentePadre></ComponentePadre> */}
+
+    {/* <UseMemoExample/> */}
+
+      <UseCallBackExample></UseCallBackExample>
     
     </>
   )
