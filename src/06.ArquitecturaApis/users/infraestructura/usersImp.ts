@@ -13,5 +13,3 @@ export class UserRepositoryImpClass implements UserRepository{
         return await response.json;
     }
 }
-
-export const UserRepository = new userRe
